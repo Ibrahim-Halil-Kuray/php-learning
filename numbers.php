@@ -24,4 +24,8 @@
     echo round(4.4)."<br>"; // 4
     echo round(4.6)."<br>"; // 5
 
+
+    echo sqrt(25)."<br>"; // 5
+    echo abs(-25)."<br>"; // 25
+
 ?>
