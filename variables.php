@@ -1,5 +1,11 @@
 <?php
 
+    // Single line comment
+
+    /*
+        Multi line comment
+    */
+
     $name = "Ibrahim";
     $surName = "Kuray";
 
