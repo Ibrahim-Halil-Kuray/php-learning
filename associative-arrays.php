@@ -24,5 +24,13 @@ $phoneNumbers = [
 
 echo $phoneNumbers['Oleg'].'<br>'; // Oleg`s Phone Number
 
+$item = [
+    'name'=> 'Iphone 14',
+    'price'=> '1000',
+    'currency' => 'Chf',
+    'available'=> true,
+];
+
+echo $item['name']."`s price is ".$item['price']." ".$item['currency'].'<br>';
 
 ?>
