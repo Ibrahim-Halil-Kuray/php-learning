@@ -33,4 +33,27 @@ $item = [
 
 echo $item['name']."`s price is ".$item['price']." ".$item['currency'].'<br>';
 
+
+$items = [
+    [
+        'name'=> 'Iphone 14',
+        'price'=> '1000',
+        'currency' => 'Chf',
+        'available'=> true,
+    ],
+    [
+        'name'=> 'Iphone 15',
+        'price'=> '1100',
+        'currency' => 'Chf',
+        'available'=> true,
+    ],
+    [
+        'name'=> 'Iphone 16',
+        'price'=> '1200',
+        'currency' => 'Chf',
+        'available'=> true,
+    ],
+];
+
+echo $items[2]['name'].'<br>';
 ?>
