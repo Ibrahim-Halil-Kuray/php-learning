@@ -16,4 +16,13 @@ $cityKeys = array(
 echo $cityKeys["21"].'<br>'; // Diyarbakir
 echo $cityKeys["06"].'<br>'; // Ankara
 
+$phoneNumbers = [
+    'Alex'=> '076111',
+    'Micahel'=> '078222',
+    'Oleg'=> '0771234',
+];
+
+echo $phoneNumbers['Oleg'].'<br>'; // Oleg`s Phone Number
+
+
 ?>
